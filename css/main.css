@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.head {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.nav-item .active {
+  border-bottom: 2px solid rgb(75, 75, 75);
+}
+
+#header {
+  background-image: url("/img/Header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 40px;
+}
+
+.header-item {
+  padding-top: 0px !important;
+  margin: 0 !important;
+}
+
+.text-primary {
+  color: #3a3a3a !important;
+}
+
+#about {
+  text-align: justify;
+}
+
+h4,
+h2 {
+  text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.35);
+}
+
+h2.text-white {
+  text-shadow: 6px 3px 5px rgba(0, 0, 0, 0.35);
+}
+
+h1.head {
+  text-shadow: 1px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-custom {
+  border-radius: 10px;
+  background-color: #fff;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#team .card-custom {
+  -webkit-box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.54);
+  box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.54);
+}
+
+#team .card-custom:hover {
+  -webkit-box-shadow: 2px 2px 26px 2px rgb(44, 44, 44);
+  -moz-box-shadow: 2px 2px 26px 2px rgb(44, 44, 44);
+  box-shadow: 2px 2px 26px 2px rgb(44, 44, 44);
+}
+
+.card-img img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#connect {
+  background-image: url("/img/help.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#form_122389_1 {
+  box-shadow: none !important;
+}
+
+footer {
+  background-color: #202020;
+}
+
+/* Телефоны */
+@media (min-width: 768px) {
+  .navbar {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  h1.head-Donbass {
+    font-size: 6rem;
+  }
+
+  .obolochka .img-fluid {
+    width: 75%;
+  }
+}
+
+/* Планшеты */
+@media (min-width: 1080px) {
+  .navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  h1.head {
+    font-size: 6rem;
+  }
+
+  .obolochka .img-fluid {
+    width: 50%;
+  }
+}
