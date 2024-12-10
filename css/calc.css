@@ -1,0 +1,27 @@
+.calculate {
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 40px;
+    text-align: center;
+}
+
+#itogo_p {
+    font-size: 2rem;
+    margin: 20px;
+}
+
+p span {
+    color: #222222;
+}
+
+.subItogo {
+    color: #868686;
+}
+
+.subItogo span {
+    color: #494949;
+}
+
+.calculate p {
+    margin-bottom: 3px;
+}
