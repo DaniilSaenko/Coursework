@@ -268,23 +268,28 @@
       </div>
     </div>
 
-    <div class="blog-content" id="blog">
-      <div class="container calculate">
+        <div class="blog-content text-center" id="blog">
+      <div class="">
         <div class="row my-5">
-          <div class="col-lg-8 mx-auto">
+          <div class="col-lg-12 mx-auto">
             <h4>Расчёт затрат на содержание проекта</h4>
             <div class="line-dec"></div>
           </div>
         </div>
         <div class="row d-flex justify-content-center">
-          <div class="col-md-7 calculate">
-            <table class="text-left d-flex justify-content-center mt-3">
+          <div class="col-md-2  calculate text-center">
+            <table class="table table-bordered text-center mt-3">
               <tr>
                 <td><label for="domain">Домен</label></td>
               </tr>
               <tr>
                 <td>
-                  <select name="domain" id="dom" class="w-100"></select>
+                  <select
+                    name="domain"
+                    id="dom"
+                    class="form-control mx-auto"
+                    style="max-width: 300px"
+                  ></select>
                 </td>
               </tr>
               <tr>
@@ -292,7 +297,12 @@
               </tr>
               <tr>
                 <td>
-                  <select name="hosting" id="host" class="w-100"></select>
+                  <select
+                    name="hosting"
+                    id="host"
+                    class="form-control mx-auto"
+                    style="max-width: 300px"
+                  ></select>
                 </td>
               </tr>
               <tr>
@@ -300,13 +310,17 @@
               </tr>
               <tr>
                 <td>
-                  <select name="admin" id="adm" class="w-100"></select>
+                  <select
+                    name="admin"
+                    id="adm"
+                    class="form-control mx-auto"
+                    style="max-width: 300px"
+                  ></select>
                 </td>
               </tr>
             </table>
-
             <p id="itogo_p">
-              Итого: <span id="itogo">0</span> руб./мес., из них:
+              Итого: <span id="itogo">0</span> руб./мес., <br>из них:
             </p>
             <br />
             <p class="subItogo">
@@ -318,8 +332,7 @@
             </p>
             <br />
             <p class="subItogo">
-              Администрирование:
-              <span id="itogoAdmin">0</span> руб./мес.
+              Администрирование: <span id="itogoAdmin">0</span> руб./мес.
             </p>
             <br />
           </div>
